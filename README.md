@@ -11,7 +11,8 @@ Robotics M.S. student at **Northeastern University** working on manipulation, st
 
 | Project | Description | Stack |
 |---|---|---|
-| [Elbow Angle Tracking with IMUs](https://github.com/PhusNguyen/Elbow-Angle-Tracking-IMUs) | Dual-IMU wearable streaming over micro-ROS. Benchmarks three sensor fusion filters and four joint angle estimation methods; a D-H two-link model was selected for the final system. | ROS | | [IMU Badminton Data Collection System](https://github.com/PhusNguyen/IMU-Badminton-Data-Collection-System) | Racket-mounted ESP32 + MPU6050 sensor in a custom mount, streaming 100 Hz IMU data over Wi-Fi to a Python server for real-time visualization, session management, and validated storage. | ESP32, C++ (PlatformIO), Python |
+| [Elbow Angle Tracking with IMUs](https://github.com/PhusNguyen/Elbow-Angle-Tracking-IMUs) | Dual-IMU wearable streaming over micro-ROS. Benchmarks three sensor fusion filters and four joint angle estimation methods; a D-H two-link model was selected for the final system. | ROS 2, micro-ROS, ESP32, Python |
+| [IMU Badminton Data Collection System](https://github.com/PhusNguyen/IMU-Badminton-Data-Collection-System) | Racket-mounted ESP32 + MPU6050 sensor in a custom mount, streaming 100 Hz IMU data over Wi-Fi to a Python server for real-time visualization, session management, and validated storage. | ESP32, C++ (PlatformIO), Python |
 | [Badminton Stroke Recognition](https://github.com/PhusNguyen/Realtime-IMU-Badminton-Stroke-Recognition) | 9,784-sample dataset from 5 players across 8 classes (4 strokes, with and without shuttle contact). Classical ML on 120+ handcrafted features benchmarked against a CNN, reaching 97% and 98% accuracy. | Python, classical ML, deep learning |
 
 ## 🛠️ Tech stack
